@@ -1,4 +1,5 @@
 #include <iostream>
+#include  "heapsort .h"
 #include "Selection_Sort.h"
 using namespace std;
 
@@ -14,7 +15,7 @@ int main()
         cin>>arr[i];
     }
 
-    selectionSort(arr,n);
+    heapsort(arr,n);
     for(int i=0;i<n;i++)
     {
         cout<<arr[i]<<" ";

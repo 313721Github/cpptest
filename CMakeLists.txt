@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(c___dataStructure_35 main.cpp
         Selection_Sort.cpp
-        Selection_Sort.h)
+        Selection_Sort.h
+        "heapsort .cpp"
+        "heapsort .h")

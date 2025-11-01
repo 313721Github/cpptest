@@ -1,7 +1,7 @@
 //
 // Created by yanfyunfei on 25-10-22.
 //
-void swap(int *arr,int i,int j)
+void my_swap(int *arr,int i,int j)
 {
     int temp=arr[i];
     arr[i]=arr[j];
@@ -22,7 +22,7 @@ void selectionSort(int *arr,int size)
             }
  
         }
-            swap(arr,min,i);
+            my_swap(arr,min,i);
     }
 
 
